@@ -1,6 +1,4 @@
-ARG MAINTAINER
-FROM debian:testing-slim
-MAINTAINER $MAINTAINER
+FROM debian:11-slim
 
 # Install Packages (basic tools, cups, basic drivers, HP drivers)
 RUN apt-get update \
