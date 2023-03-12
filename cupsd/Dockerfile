@@ -9,6 +9,7 @@ RUN apt-get update \
   whois \
   usbutils \
   cups \
+  cups-backend-bjnp \
   cups-client \
   cups-bsd \
   cups-filters \
