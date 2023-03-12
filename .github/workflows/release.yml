@@ -67,6 +67,8 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
+          labels: |
+            maintainer=BlackDark
       - name: Build and push PMS
         uses: docker/build-push-action@v3
         with:
